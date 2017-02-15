@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1435015076 source:c:\users\badr\desktop\comp\main.cpp
+	<iostream>
+	"matrice.h"
+	"Huffman.h"
+
+1435014440 c:\users\badr\desktop\comp\matrice.h
+	<stdlib.h>
+	<math.h>
+
+1435014737 c:\users\badr\desktop\comp\huffman.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<math.h>
+	<malloc.h>
+	<iostream>
+	<fstream>
+	<string.h>
+	<fstream>
+
+1434735930 source:c:\users\badr\desktop\comp\matrice.cpp
+	<iostream>
+	"matrice.h"
+
+1435014426 source:c:\users\badr\desktop\comp\transformation.cpp
+	<iostream>
+	"matrice.h"
+
+1435014693 source:c:\users\badr\desktop\comp\quantification.cpp
+	<iostream>
+	"matrice.h"
+
+1435018293 source:c:\users\dell\downloads\comp (2)\comp\quantification.cpp
+	<iostream>
+	"matrice.h"
+
+1435018040 c:\users\dell\downloads\comp (2)\comp\matrice.h
+	<stdlib.h>
+	<math.h>
+
+1435018026 source:c:\users\dell\downloads\comp (2)\comp\transformation.cpp
+	<iostream>
+	"matrice.h"
+
+1435019454 source:c:\users\dell\downloads\comp (2)\comp\matrice.cpp
+	<iostream>
+	"matrice.h"
+
+1435021692 source:c:\users\dell\downloads\comp (2)\comp\main.cpp
+	<iostream>
+	"matrice.h"
+	"Huffman.h"
+
+1435021766 c:\users\dell\downloads\comp (2)\comp\huffman.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<math.h>
+	<malloc.h>
+	<iostream>
+	<fstream>
+	<string.h>
+	<fstream>
+
+1435065236 source:c:\users\badr\desktop\comp-rect\comp rect\main.cpp
+	<iostream>
+	"SAVEJPEG.H"
+	"matrice.h"
+	"Huffman.h"
+
+1435014440 c:\users\badr\desktop\comp-rect\comp rect\matrice.h
+	<stdlib.h>
+	<math.h>
+
+1435054340 c:\users\badr\desktop\comp-rect\comp rect\huffman.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<math.h>
+	<malloc.h>
+	<iostream>
+	<fstream>
+	<string.h>
+	<fstream>
+
+1435015854 source:c:\users\badr\desktop\comp-rect\comp rect\matrice.cpp
+	<iostream>
+	"matrice.h"
+
+1435014693 source:c:\users\badr\desktop\comp-rect\comp rect\quantification.cpp
+	<iostream>
+	"matrice.h"
+
+1435014426 source:c:\users\badr\desktop\comp-rect\comp rect\transformation.cpp
+	<iostream>
+	"matrice.h"
+
+1434896810 source:c:\users\badr\desktop\structure_img_apres_compression\structure_img_apres_compression.cpp
+	"SAVEJPEG.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+
+1434897032 c:\users\badr\desktop\structure_img_apres_compression\savejpeg.h
+	<iostream>
+	<string.h>
+	<string>
+
+1434897032 c:\users\badr\desktop\comp-rect\comp rect\savejpeg.h
+	<iostream>
+	<string.h>
+	<string>
+

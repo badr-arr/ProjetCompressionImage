@@ -1,0 +1,70 @@
+#include <QCoreApplication>
+#include <iostream>
+#include "matrice.h"
+#include "Huffman.h"
+#include <fstream>
+#include <string>
+#include<vector>
+#include <stdio.h>
+#include <stdlib.h>
+#include <QImage>
+#include <QColor>
+#include <QDebug>
+#include "SAVEJPEG.H"
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+
+
+void compresser(Qstring file){
+	QImage img(file);
+    	int width=(img.width()/8)*8;
+    	int height=(img.height()/8)*8;
+	int calcule=width*height;
+	int b=(width/8); 
+	int a=(height/8);
+	Matrice luminance(height,width);
+	Matrice chrominanceR(height,width);
+	Matrice chrominanceB(height,height);
+	for(int i=0;i<height;i++)
+    		for(int j=0;j<width;j++){
+        			QColor clrCurrent( src.pixel(i,j) );
+            			luminance.M[i][j]=(0.299*clrCurrent.red()+0.587*clrCurrent.green()+0.114*clrCurrent.blue());
+            			chrominanceR.M[i][j]=(clrCurrent.red()- luminance.M[i][j])*0.713+128;
+            			chrominanceB.M[i][j]=(clrCurrent.blue()- luminance.M[i][j])*0.564+128;
+                                }
+    	cv<<"Valeur\t\tCode Binaire"<<endl;
+    	tab= new occur[calcule];
+    	t=new int[calcule];
+	int i=0,j=0;
+	int compteur=0;
+	while (i<a){
+        		while (j<b){
+            			Matrice DCT;
+            			DCT=Transformation(chrominanceR,i,j);
+            			Quantifie(DCT);
+            			Zig(DCT,compteur);
+            			j++;
+            			compteur++;
+        		}
+        		i++;
+        		j=0;
+	}
+	RLE(t,calcule);
+	huffmang() ;
+   	codage(racine, '0');
+}
+
+
+
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
